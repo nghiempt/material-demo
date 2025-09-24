@@ -164,54 +164,6 @@
   animation: zoomInOutReverse 1.5s ease-in-out infinite;
 }
 
-@font-face {
-  font-family: "PlusJakartaSans-Regular";
-  src: url("./fonts/PlusJakartaSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PlusJakartaSans-Bold";
-  src: url("./fonts/PlusJakartaSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PlusJakartaSans-Light";
-  src: url("./fonts/PlusJakartaSans-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PlusJakartaSans-Medium";
-  src: url("./fonts/PlusJakartaSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PlusJakartaSans-SemiBold";
-  src: url("./fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-.font-light {
-  font-family: "PlusJakartaSans-Light", sans-serif;
-}
-.font-medium {
-  font-family: "PlusJakartaSans-Medium", sans-serif;
-}
-
-.font-bold {
-  font-family: "PlusJakartaSans-Bold", sans-serif;
-}
-.font-semibold {
-  font-family: "PlusJakartaSans-SemiBold", sans-serif;
-}
-
 @layer base {
   * {
     @apply border-border;
